@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { LandingComponent } from './components/landing/landing.component';
 
 import { SwiperModule } from 'ngx-swiper-wrapper';
+import { ServiciosComponent } from './components/servicios/servicios.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SwiperModule } from 'ngx-swiper-wrapper';
     HeaderComponent,
     ProjectsComponent,
     FooterComponent,
-    LandingComponent
+    LandingComponent,
+    ServiciosComponent
   ],
   imports: [
     BrowserModule,

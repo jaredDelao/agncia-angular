@@ -1,0 +1,26 @@
+<div class="container-full">
+  <div class="container titulo">
+    <div class="box-title">
+      <h3>
+        SOMOS UNA AGENCIA TECNOLÓGICA ESPECIALIZADA EN DESARROLLO CON NUEVAS
+        TECNOLOGÍAS Y MARKETING
+      </h3>
+    </div>
+  </div>
+
+  <div class="container slider">
+    <div class="container">
+      <h4>Nuestro trabajo</h4>
+      <span>Descubre nuestros proyectos</span>
+
+      <!-- Swiper -->
+      <swiper fxFlex="auto" [config]="config" [(index)]="index">
+        <div *ngFor="let image of images; let index = index" class="swiper-slide cursor-pointer">
+          <div fxLayout="column" fxLayoutAlign="center center" fxFlexFill class="mx-2">
+            <img [src]="image.img" alt="image.img">
+          </div>
+        </div>
+      </swiper>
+    </div>
+  </div>
+</div>

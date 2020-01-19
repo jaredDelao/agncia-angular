@@ -1,0 +1,35 @@
+@import '~swiper/dist/css/swiper.min.css';
+
+.container-full {
+  background-color: white;
+}
+
+h3 {
+  color: #777;
+  text-align: center;
+  align-self: center;
+}
+
+.titulo {
+  height: 40vh;
+}
+
+.box-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  cursor: move;
+}
+
+swiper {
+  margin: 18px 0;
+}
+
+.swiper-slide {
+  cursor: move;
+}

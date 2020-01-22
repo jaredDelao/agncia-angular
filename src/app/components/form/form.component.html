@@ -1,0 +1,79 @@
+<div class="container-full">
+    <div class="move" #move></div>
+    <div class="container">
+        <div class="row">
+            <div class="box-1 col-lg-5 col-md-5 col-sm-12">
+                <div class="text-box">
+                    <p class="title">¡Escríbenos!</p>
+                    <p class="subtitle">Nos encantaría escucharte y desarrollar juntos las estrategias correctas para
+                        impulsar tu negocio o proyecto.
+                    </p>
+                </div>
+            </div>
+            <div class="box-2 col-lg-7 col-md-7 col-sm-12">
+                <div class="form-group group-form">
+
+                    <form [formGroup]="form" #boxForm>
+
+                        <div class="content" #content>
+
+                            <div class="form-group">
+                                <mat-form-field>
+                                    <input matInput placeholder="Nombre" autocomplete="off" formControlName="nombre"
+                                        type="text">
+                                    <mat-hint *ngIf="form.get('nombre').invalid && form.get('nombre').touched">Nombre
+                                        requerido</mat-hint>
+                                </mat-form-field>
+                            </div>
+                            <div class="form-group">
+                                <mat-form-field>
+                                    <input matInput placeholder="Correo" formControlName="correo" type="email">
+                                    <mat-hint *ngIf="form.get('correo').invalid && form.get('correo').touched">Correo
+                                        requerido</mat-hint>
+                                </mat-form-field>
+                            </div>
+                            <div class="form-group">
+                                <mat-form-field>
+                                    <input matInput placeholder="Teléfono" autocomplete="off" formControlName="telefono"
+                                        type="text">
+                                    <mat-hint *ngIf="form.get('telefono').invalid && form.get('telefono').touched">
+                                        Teléfono requerido</mat-hint>
+                                </mat-form-field>
+                            </div>
+
+                            <div class="form-group">
+                                <mat-form-field class="example-full-width">
+                                    <textarea matInput placeholder="Comentarios"
+                                        formControlName="comentarios"></textarea>
+                                </mat-form-field>
+                            </div>
+
+                            <div class="form-group">
+                                <mat-form-field>
+                                    <mat-label>En que servicio estas interesado</mat-label>
+                                    <mat-select formControlName="servicio">
+                                        <mat-option *ngFor="let servicio of servicios" [value]="servicio">
+                                            {{servicio}}
+                                        </mat-option>
+                                        <mat-hint *ngIf="form.get('telefono').invalid && form.get('telefono').touched">
+                                            Servicio requerido</mat-hint>
+                                    </mat-select>
+                                </mat-form-field>
+                            </div>
+
+                            <div class="form-group" *ngIf="form['controls'].servicio.value === 'Otro...'">
+                                <mat-form-field>
+                                    <input matInput #message maxlength="100"
+                                        placeholder="Cuéntanos qué otro servicio te gustaría" formControlName="otro">
+                                </mat-form-field>
+                            </div>
+
+                            <button color="primary" class="btn" #boxForm (click)="enviar($event)" mat-raised-button>ENVIAR</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

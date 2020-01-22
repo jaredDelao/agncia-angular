@@ -10,6 +10,10 @@ import { LandingComponent } from './components/landing/landing.component';
 
 import { SwiperModule } from 'ngx-swiper-wrapper';
 import { ServiciosComponent } from './components/servicios/servicios.component';
+import { FormComponent } from './components/form/form.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material.module';
 
 @NgModule({
   declarations: [
@@ -18,12 +22,17 @@ import { ServiciosComponent } from './components/servicios/servicios.component';
     ProjectsComponent,
     FooterComponent,
     LandingComponent,
-    ServiciosComponent
+    ServiciosComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MaterialModule,
     SwiperModule,
+    FormsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

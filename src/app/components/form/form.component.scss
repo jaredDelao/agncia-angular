@@ -1,7 +1,6 @@
 .container-full {
   height: 100vh;
   position: relative;
-  border-bottom: 2px solid #1abc9c;
   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }
 .container,
@@ -85,5 +84,22 @@ form {
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
 }
 
-.btn:hover {
+@media only screen and (max-width: "1000px") {
+  .container .title {
+    font-size: 1.5em;
+  }
+  .container .subtitle {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: "768px") {
+  .container-full {
+    padding: 5% 0;
+    height: auto;
+  }
+
+  form {
+    margin-top: 5%;
+    font-size: .8em;
+  }
 }

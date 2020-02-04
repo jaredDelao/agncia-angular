@@ -16,6 +16,11 @@
   color: rgb(19, 18, 18);
 }
 
+.slider .container {
+  margin: 0;
+  padding: 0;
+}
+
 .about {
   color: #777;
   text-align: center;
@@ -44,4 +49,26 @@ swiper {
 
 .swiper-slide {
   cursor: move;
+}
+
+@media only screen and (max-width: '1000px') {
+  .about {
+    font-size: 1.6em;
+  }
+  .container .title {
+    font-size: 1.5em;
+  }
+  .container .subtitle {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: '770px') {
+  .about {
+    font-size: 1.3em;
+  }
+}
+@media only screen and (max-width: '500px') {
+  .about {
+    font-size: 1.1em;
+  }
 }

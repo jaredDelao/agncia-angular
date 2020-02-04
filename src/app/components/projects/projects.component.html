@@ -13,7 +13,7 @@
       <p class="subtitle">Descubre nuestros proyectos</p>
 
       <!-- Swiper -->
-      <swiper fxFlex="auto" [config]="config" [(index)]="index">
+      <swiper fxFlex="auto" [config]="config">
         <div *ngFor="let image of images; let index = index" class="swiper-slide cursor-pointer">
           <div fxLayout="column" fxLayoutAlign="center center" fxFlexFill class="mx-2">
             <img [src]="image.img" alt="image.img">

@@ -1,0 +1,100 @@
+{
+  "configVersion": 1,
+  "timestamp": 1580845501074,
+  "index": "/agncia-angular/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/agncia-angular/favicon.ico",
+        "/agncia-angular/index.html",
+        "/agncia-angular/main-es2015.67a84ec928be14dc5784.js",
+        "/agncia-angular/main-es5.67a84ec928be14dc5784.js",
+        "/agncia-angular/manifest.webmanifest",
+        "/agncia-angular/polyfills-es2015.2987770fde9daa1d8a2e.js",
+        "/agncia-angular/polyfills-es5.6696c533341b95a3d617.js",
+        "/agncia-angular/runtime-es2015.edb2fcf2778e7bf1d426.js",
+        "/agncia-angular/runtime-es5.edb2fcf2778e7bf1d426.js",
+        "/agncia-angular/styles.d0c167564a69cbd24b19.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/agncia-angular/assets/bengala.png",
+        "/agncia-angular/assets/cosmiclatte.png",
+        "/agncia-angular/assets/facebook.png",
+        "/agncia-angular/assets/gl-consultorias.png",
+        "/agncia-angular/assets/icons/icon-128x128.png",
+        "/agncia-angular/assets/icons/icon-144x144.png",
+        "/agncia-angular/assets/icons/icon-152x152.png",
+        "/agncia-angular/assets/icons/icon-192x192.png",
+        "/agncia-angular/assets/icons/icon-384x384.png",
+        "/agncia-angular/assets/icons/icon-512x512.png",
+        "/agncia-angular/assets/icons/icon-72x72.png",
+        "/agncia-angular/assets/icons/icon-96x96.png",
+        "/agncia-angular/assets/instagram.png",
+        "/agncia-angular/assets/linkedin.png",
+        "/agncia-angular/assets/logo.svg",
+        "/agncia-angular/assets/nueces-xoxoteco.png",
+        "/agncia-angular/assets/tiim.png",
+        "/agncia-angular/assets/video_portada.mp4"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/agncia-angular/assets/bengala.png": "c3de50cbb8b6661ed6f11fd3329eeb0b5ab1a53a",
+    "/agncia-angular/assets/cosmiclatte.png": "2ff034c58606059026ff2c38b6a5ad6c87a1519e",
+    "/agncia-angular/assets/facebook.png": "477d0aef62943558b00f506c726ac3631dacc310",
+    "/agncia-angular/assets/gl-consultorias.png": "1107ae859f3d8e01d13992206e38d9c9ba98cac7",
+    "/agncia-angular/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/agncia-angular/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/agncia-angular/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/agncia-angular/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/agncia-angular/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/agncia-angular/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/agncia-angular/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/agncia-angular/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/agncia-angular/assets/instagram.png": "0fcb27240862cf29809afac9a2e71c7dbd9d1dd8",
+    "/agncia-angular/assets/linkedin.png": "21212d1ea9c6c25f449355eca2eda5a5f9671533",
+    "/agncia-angular/assets/logo.svg": "bacba2a94f585e1612f69700c54a43b6470829d9",
+    "/agncia-angular/assets/nueces-xoxoteco.png": "236f2bb63ec7f71568dcef41c197a6d9c7156a49",
+    "/agncia-angular/assets/tiim.png": "ad9d0e8467de99384a2313d5f2ba5e82bb4de037",
+    "/agncia-angular/assets/video_portada.mp4": "d29c222fb245561b2344d350045d0d4600be52a3",
+    "/agncia-angular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/agncia-angular/index.html": "af3f57dbb12419d4df3edd4e05ca54fde0f18e6c",
+    "/agncia-angular/main-es2015.67a84ec928be14dc5784.js": "10e065d8841849c36cf4a1f9e3e5f5c296507070",
+    "/agncia-angular/main-es5.67a84ec928be14dc5784.js": "424fb46bd1f14324d15d4784257939b9070cc922",
+    "/agncia-angular/manifest.webmanifest": "07bdec60d06233e0b48494a30d3f1aee2f1b6ecb",
+    "/agncia-angular/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
+    "/agncia-angular/polyfills-es5.6696c533341b95a3d617.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
+    "/agncia-angular/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/agncia-angular/runtime-es5.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/agncia-angular/styles.d0c167564a69cbd24b19.css": "fe965064af5def8f55ad81baea41d66fdebe78eb"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

@@ -8,6 +8,10 @@
   height: 100%;
 }
 
+p {
+  transition: all 1s;
+}
+
 mat-hint {
   color: tomato !important;
 }
@@ -82,6 +86,7 @@ form {
 
 .btn {
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  color: white !important;
 }
 
 @media only screen and (max-width: "1000px") {

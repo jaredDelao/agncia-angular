@@ -5,9 +5,53 @@
     margin: 0;
     padding: 0;
 }
+.toolbar {
+    width: 100%;
+    top: 5%;
+    position: absolute;
+    height: 200px;
+}
+.toolbar .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.left {
+    position: relative;
+}
+
+img {
+    width: auto;
+    height: 100%;
+    position: relative;
+}
 
 video {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: auto;
+    color: white;
+    text-transform: uppercase;
+}
+
+.content h2 {
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: '770px') {
+    .content h2 {
+        font-size: 1.3em;
+    }
 }

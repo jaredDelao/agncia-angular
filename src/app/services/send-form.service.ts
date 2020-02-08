@@ -12,6 +12,6 @@ export class SendFormService {
   constructor(private http: HttpClient) { }
 
   enviarForm(value) {
-    return this.http.post(this.prod, value);
+    return this.http.post(this.dev, value);
   }
 }

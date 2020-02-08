@@ -1,12 +1,5 @@
-import {
-  Component,
-  OnInit,
-  ViewChild,
-  ElementRef,
-  AfterViewInit
-} from "@angular/core";
-import Swiper from "swiper";
-import { SwiperConfigInterface } from "ngx-swiper-wrapper";
+import { Component, OnInit, AfterViewInit } from "@angular/core";
+import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gallery';
 
 @Component({
   selector: "app-projects",
@@ -14,54 +7,84 @@ import { SwiperConfigInterface } from "ngx-swiper-wrapper";
   styleUrls: ["./projects.component.scss"]
 })
 export class ProjectsComponent implements OnInit, AfterViewInit {
-  @ViewChild("swipercontainer", { static: false }) swiperContainer: ElementRef;
-  @ViewChild("pagination", { static: false }) pagination: ElementRef;
-  @ViewChild("next", { static: false }) next: ElementRef;
-  @ViewChild("prev", { static: false }) prev: ElementRef;
-
-  images: Array<Object> = [
-    { img: "../../../assets/cosmiclatte.png" },
-    { img: "../../../assets/bengala.png" },
-    { img: "../../../assets/gl-consultorias.png" },
-    { img: "../../../assets/nueces-xoxoteco.png" },
-    { img: "../../../assets/tiim.png" }
-  ];
-
-  config: SwiperConfigInterface = {
-    direction: "horizontal",
-    autoplay: {
-      delay: 3000,
-    },
-    fadeEffect: {
-      crossFade: true
-    },
-    speed: 750,
-    slidesPerView: 2,
-    slideToClickedSlide: true,
-    mousewheel: true,
-    scrollbar: true,
-    watchSlidesProgress: false,
-    navigation: false,
-    keyboard: true,
-    pagination: false,
-    centeredSlides: false,
-    loop: true,
-    roundLengths: false,
-    slidesOffsetBefore: 100,
-    slidesOffsetAfter: 100,
-    spaceBetween: 35,
-    parallax: true,
-    breakpoints: {
-      // when window width is >= 320px
-      320: {
-        slidesPerView: 1
-      }
-    }
-  };
+  galleryOptions: NgxGalleryOptions[];
+  galleryImages: NgxGalleryImage[];
 
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.galleryOptions = [
+      {
+        width: '100%',
+        height: '700px',
+        thumbnailsColumns: 4,
+        imageAutoPlay: true,
+        imageAutoPlayPauseOnHover: true,
+        previewAutoPlay: true,
+        previewAutoPlayPauseOnHover: true,
+        previewCloseOnClick: true, 
+        previewCloseOnEsc: true,
+        arrowPrevIcon: "fa fa-chevron-left", 
+        arrowNextIcon: "fa fa-chevron-right",
+        closeIcon: "fa fa-window-close",
+        fullscreenIcon: "fa fa-arrows", 
+        spinnerIcon: "fa fa-refresh fa-spin fa-3x fa-fw",
+        previewFullscreen: true,
+        imageAnimation: NgxGalleryAnimation.Slide
+      },
+      // max-width 800
+      {
+        breakpoint: 800,
+        width: '100%',
+        height: '400px',
+        imagePercent: 80,
+        thumbnailsPercent: 20,
+        thumbnailsMargin: 20,
+        thumbnailMargin: 20
+      },
+      // max-width 500
+      {
+        breakpoint: 500,
+        width: '100%',
+        height: '300px',
+        preview: false
+      },
+      {
+        breakpoint: 400,
+        width: '100%',
+        height: '200px',
+        preview: false
+      }
+    ];
+
+    this.galleryImages = [
+      { 
+        small: "../../../assets/cosmiclatte.png",
+        medium: "../../../assets/cosmiclatte.png", 
+        big: "../../../assets/cosmiclatte.png", 
+      },
+      { 
+        small: "../../../assets/bengala.png",
+        medium: "../../../assets/bengala.png",
+        big: "../../../assets/bengala.png" 
+      },
+      { 
+        small: "../../../assets/gl-consultorias.png",
+        medium: "../../../assets/gl-consultorias.png", 
+        big: "../../../assets/gl-consultorias.png" 
+      },
+      { 
+        small: "../../../assets/nueces-xoxoteco.png",
+        medium: "../../../assets/nueces-xoxoteco.png",
+        big: "../../../assets/nueces-xoxoteco.png" 
+      },
+      { 
+        small: "../../../assets/tiim.png",
+        medium: "../../../assets/tiim.png",
+        big: "../../../assets/tiim.png" 
+      }
+    ]
+  }
 
   ngAfterViewInit() {}
 

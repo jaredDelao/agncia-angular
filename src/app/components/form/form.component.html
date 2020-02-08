@@ -49,7 +49,7 @@
                             <div class="form-group">
                                 <mat-form-field>
                                     <mat-label>En que servicio estas interesado</mat-label>
-                                    <mat-select formControlName="servicio" name="servicio">
+                                    <mat-select formControlName="servicio" name="servicio" [disabled]="afterCheck">
                                         <mat-option *ngFor="let servicio of servicios" [value]="servicio">
                                             {{servicio}}
                                         </mat-option>
@@ -66,7 +66,7 @@
                                 </mat-form-field>
                             </div>
 
-                            <button color="primary" type="submit" class="btn" #boxForm mat-raised-button>ENVIAR</button>
+                            <button color="primary" [disabled]="form.invalid" type="submit" class="btn" #boxForm mat-raised-button>ENVIAR</button>
                         </div>
                     </form>
 

@@ -7,19 +7,23 @@
     </div>
   </div>
 
-  <div class="container slider">
+  <div class="container slider"> 
     <div class="container">
       <p class="title">Nuestro trabajo</p>
       <p class="subtitle">Descubre nuestros proyectos</p>
 
       <!-- Swiper -->
-      <swiper fxFlex="auto" [config]="config">
+      <!-- <swiper fxFlex="auto" [config]="config">
         <div *ngFor="let image of images; let index = index" class="swiper-slide cursor-pointer">
           <div fxLayout="column" fxLayoutAlign="center center" fxFlexFill class="mx-2">
             <img [src]="image.img" alt="image.img">
           </div>
         </div>
-      </swiper>
+      </swiper> -->
+
+      <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+
+
 
     </div>
   </div>

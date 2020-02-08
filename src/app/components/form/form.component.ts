@@ -38,7 +38,7 @@ export class FormComponent implements OnInit, AfterViewInit {
     "Consultorias Marketing",
     "Posicionamiento SEO & SEM",
     "Social Media Management",
-    "Otro..."
+    "Otro"
   ];
 
   constructor(private fb: FormBuilder, private formService: SendFormService) {}
@@ -48,8 +48,8 @@ export class FormComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit() {
-    // this.form.valueChanges.subscribe(res => {
-    //   console.log(res);
+    // this.form.controls.servicio.valueChanges.subscribe(res => {
+      
     // });
   }
 
@@ -80,15 +80,9 @@ export class FormComponent implements OnInit, AfterViewInit {
 
   formInit() {
     this.form = this.fb.group({
-      nombre: new FormControl("", [
-        Validators.required,
-        Validators.minLength(3)
-      ]),
+      nombre: new FormControl("", [ Validators.required, Validators.minLength(3) ]),
       correo: new FormControl("", [Validators.required, Validators.email]),
-      telefono: new FormControl("", [
-        Validators.required,
-        Validators.minLength(10)
-      ]),
+      telefono: new FormControl("", [ Validators.required, Validators.minLength(10)]),
       comentarios: new FormControl(""),
       servicio: new FormControl("", [Validators.required]),
       otro: new FormControl("")
@@ -98,23 +92,10 @@ export class FormComponent implements OnInit, AfterViewInit {
   enviar() {
 
     let req = this.form.getRawValue();
-
-    console.log(req);
-    
-    this.formService.enviarForm(req).subscribe(res => console.log(res))
-
-    // emailjs.sendForm('gmail', 'template_I4iLtUjP', e.target, 'user_Qd8pcc7q7uym98KBTLEYU')
-    //   .then((result: EmailJSResponseStatus) => {
-    //     console.log(result.text);
-    //     this.form.reset();
-    //   }, (error) => {
-    //     console.log(error.text);
-    //   });
-
-    
-    // this.ngOnInit();
+    this.formService.enviarForm(req).subscribe();
     this.moved();
     this.afterCheck = true;
+    this.form.reset();
   }
 
   in() {

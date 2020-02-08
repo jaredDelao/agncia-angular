@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, HAMMER_GESTURE_CONFIG } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -17,6 +17,7 @@ import { MaterialModule } from './material.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { HttpClientModule } from '@angular/common/http';
+import { NgxGalleryModule, CustomHammerConfig } from 'ngx-gallery';
 
 @NgModule({
   declarations: [
@@ -35,11 +36,13 @@ import { HttpClientModule } from '@angular/common/http';
     MaterialModule,
     SwiperModule,
     FormsModule,
+    NgxGalleryModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
-  providers: [],
+  providers: [
+    { provide: HAMMER_GESTURE_CONFIG, useClass: CustomHammerConfig }  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

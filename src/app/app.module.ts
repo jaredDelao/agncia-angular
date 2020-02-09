@@ -8,7 +8,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingComponent } from './components/landing/landing.component';
 
-import { SwiperModule } from 'ngx-swiper-wrapper';
+// import { SwiperModule } from 'ngx-swiper-wrapper';
 import { ServiciosComponent } from './components/servicios/servicios.component';
 import { FormComponent } from './components/form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -18,6 +18,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { HttpClientModule } from '@angular/common/http';
 import { NgxGalleryModule, CustomHammerConfig } from 'ngx-gallery';
+import { LoaderComponent } from './components/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -27,14 +28,15 @@ import { NgxGalleryModule, CustomHammerConfig } from 'ngx-gallery';
     FooterComponent,
     LandingComponent,
     ServiciosComponent,
-    FormComponent
+    FormComponent,
+    LoaderComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     MaterialModule,
-    SwiperModule,
+    // SwiperModule,
     FormsModule,
     NgxGalleryModule,
     ReactiveFormsModule,
@@ -42,7 +44,8 @@ import { NgxGalleryModule, CustomHammerConfig } from 'ngx-gallery';
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [
-    { provide: HAMMER_GESTURE_CONFIG, useClass: CustomHammerConfig }  ],
+    { provide: HAMMER_GESTURE_CONFIG, useClass: CustomHammerConfig }  
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,49 @@
+.background {
+    width: inherit;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right:0;
+    left: 0;
+    background-color: #000;
+    z-index: 9999;
+    max-width: 100%;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    top: 30%;
+    justify-content: center;
+    // left: 50%;
+    // opacity: 0;
+    // border: 1px solid white;
+}
+
+.lt {
+    margin: 0 10px;
+    font-family: 'Bebas Neue';
+    font-size: 10em;
+    color: #EDB907;
+}
+
+#lt-i {
+    font-family: 'Changa', Arial;
+}
+
+.lt-1, .lt-3, .lt-5 {
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: '600px') {
+    .lt {
+        font-size: 7em;
+    }
+}
+@media only screen and (max-width: '450px') {
+    .lt {
+        font-size: 6em;
+    }
+}

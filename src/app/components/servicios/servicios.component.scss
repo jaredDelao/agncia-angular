@@ -55,7 +55,7 @@
   font-size: 1em;
 }
 
-@media only screen and (max-width: "1000px") {
+@media screen and (max-width: "1000px") {
   .container .title {
     font-size: 1.5em;
   }
@@ -67,7 +67,7 @@
   }
 }
 
-@media only screen and (max-width: "550px") {
+@media screen and (max-width: "550px") {
   .imagen {
     height: 250px;
   }

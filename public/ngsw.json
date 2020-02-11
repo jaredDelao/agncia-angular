@@ -1,0 +1,124 @@
+{
+  "configVersion": 1,
+  "timestamp": 1581355926508,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.eb7dfe6cbb78f4bebc88.js",
+        "/main-es5.eb7dfe6cbb78f4bebc88.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.2987770fde9daa1d8a2e.js",
+        "/polyfills-es5.6696c533341b95a3d617.js",
+        "/runtime-es2015.edb2fcf2778e7bf1d426.js",
+        "/runtime-es5.edb2fcf2778e7bf1d426.js",
+        "/styles.8d9099f0623808683d06.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/Talenti.postman_collection.json",
+        "/assets/apps.jpg",
+        "/assets/bengala.png",
+        "/assets/cosmiclatte.png",
+        "/assets/cut.mp4",
+        "/assets/facebook.png",
+        "/assets/gl-consultorias.png",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/instagram.png",
+        "/assets/linkedin.png",
+        "/assets/logo-header.png",
+        "/assets/logo.svg",
+        "/assets/marketing.jpg",
+        "/assets/nueces-xoxoteco.png",
+        "/assets/tiim.png",
+        "/assets/video_portada.mp4",
+        "/assets/video_portada2.mp4",
+        "/assets/web.jpg",
+        "/fontawesome-webfont.674f50d287a8c48dc19b.eot",
+        "/fontawesome-webfont.912ec66d7572ff821749.svg",
+        "/fontawesome-webfont.af7ae505a9eed503f8b8.woff2",
+        "/fontawesome-webfont.b06871f281fee6b241d6.ttf",
+        "/fontawesome-webfont.fee66e712a8a08eef580.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/Talenti.postman_collection.json": "4189ee3f2961e1afb8cd05dc40125ca64a036a2f",
+    "/assets/apps.jpg": "b6e1433c22e52b87bc85b81b9e9f424654676eeb",
+    "/assets/bengala.png": "c3de50cbb8b6661ed6f11fd3329eeb0b5ab1a53a",
+    "/assets/cosmiclatte.png": "2ff034c58606059026ff2c38b6a5ad6c87a1519e",
+    "/assets/cut.mp4": "359e31b385146129d65bb3c5e4b440b2af5021f6",
+    "/assets/facebook.png": "477d0aef62943558b00f506c726ac3631dacc310",
+    "/assets/gl-consultorias.png": "1107ae859f3d8e01d13992206e38d9c9ba98cac7",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/instagram.png": "0fcb27240862cf29809afac9a2e71c7dbd9d1dd8",
+    "/assets/linkedin.png": "21212d1ea9c6c25f449355eca2eda5a5f9671533",
+    "/assets/logo-header.png": "359c9fbab4ad48e832d860493e6ea7b1907f1ea5",
+    "/assets/logo.svg": "80e168347d9b7c42e77686d0a11771e30d4d5b88",
+    "/assets/marketing.jpg": "e01d4ae5623f6ecbf9dbabb9f7a9233ec7e11bf3",
+    "/assets/nueces-xoxoteco.png": "236f2bb63ec7f71568dcef41c197a6d9c7156a49",
+    "/assets/tiim.png": "ad9d0e8467de99384a2313d5f2ba5e82bb4de037",
+    "/assets/video_portada.mp4": "d29c222fb245561b2344d350045d0d4600be52a3",
+    "/assets/video_portada2.mp4": "89e5745d3e7b22a1691eb4c9777173965e2a7e3a",
+    "/assets/web.jpg": "4f64859e7d800f527944aab1615ecc4e24467f50",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/fontawesome-webfont.674f50d287a8c48dc19b.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "/fontawesome-webfont.912ec66d7572ff821749.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
+    "/fontawesome-webfont.af7ae505a9eed503f8b8.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "/fontawesome-webfont.b06871f281fee6b241d6.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "/fontawesome-webfont.fee66e712a8a08eef580.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "/index.html": "73048e7a122f24ea302f38d10f4635ef05f002f2",
+    "/main-es2015.eb7dfe6cbb78f4bebc88.js": "2f54bcf23a63134688d50cd03600522f71101540",
+    "/main-es5.eb7dfe6cbb78f4bebc88.js": "cf54952838949bdd1c5041c2b860bec9dbe61225",
+    "/manifest.webmanifest": "07bdec60d06233e0b48494a30d3f1aee2f1b6ecb",
+    "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
+    "/polyfills-es5.6696c533341b95a3d617.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
+    "/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/runtime-es5.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.8d9099f0623808683d06.css": "d2821f6bed08cf302262562eb0606bfaf73b63d0"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

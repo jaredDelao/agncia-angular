@@ -1,0 +1,1027 @@
+{
+	"id": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+	"name": "Talenti",
+	"description": "",
+	"order": [
+		"fbc11f38-1f80-43a2-418e-ed195626f206",
+		"948d100e-c147-bdba-1f3b-040242cdadf1",
+		"ecdadcac-20a7-d945-1ca5-2634aa150a2c",
+		"5ab1b4b6-e725-b86b-7fe9-e4e531ebd1aa",
+		"3c417e4a-8b82-f3c6-0596-d2b8f9baed8b",
+		"9b9a8ef3-c17c-0df4-cd29-9b5ba1a296e3",
+		"4a48eb08-1e1c-933d-86ef-2d73505be9a0",
+		"897fbfe9-eb59-2d37-aa5b-28571274222a",
+		"526ca24e-024e-e48a-2f98-d520e73c5414",
+		"4a0e9cbc-6903-95f8-10b5-b74deeb82099",
+		"8315fd4a-7259-1698-c3dd-0d3edd0b61b8",
+		"58f400cb-095f-869a-c8a1-46d341e1ee79",
+		"62f5e9b8-69f6-1d8a-b39d-e71094ab3e27",
+		"d7161a2b-5f4c-a3ad-519f-a4c117160a04",
+		"42689f57-a894-08b1-a7c7-e5197d6982f8",
+		"9cce9cda-780e-7dda-1094-67b00c49007b",
+		"97615bf2-0e98-34ef-9501-2ea8145efdd0",
+		"de73202f-0430-ed63-8187-174f318fd581",
+		"45e721c9-35dd-c02b-6773-a843cb8be6b4"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 0,
+	"owner": "3612842",
+	"public": false,
+	"requests": [
+		{
+			"id": "3c417e4a-8b82-f3c6-0596-d2b8f9baed8b",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "getEmpleados",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1580500339403,
+			"name": "GetEmpleados",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "42689f57-a894-08b1-a7c7-e5197d6982f8",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "GetEmpleadobyId",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "iIdEmpleado",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1580765257254,
+			"name": "GetEmpleadobyId",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "45e721c9-35dd-c02b-6773-a843cb8be6b4",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "UpdEmpleado",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "correoelectronico",
+					"value": "empleado2_0@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "md5pass",
+					"value": "81dc9bdb52d04dc20036dbd8313ed055",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nombres",
+					"value": "Empleado NOmbre",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "apellidos",
+					"value": "Sanchez",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "iIdRol",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "iIdEmpleado",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1581266197113,
+			"name": "UpdEmpleado",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "4a0e9cbc-6903-95f8-10b5-b74deeb82099",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "lstClientes",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1580527820154,
+			"name": "listarClientes",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "4a48eb08-1e1c-933d-86ef-2d73505be9a0",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "getPerfiles",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1580500157500,
+			"name": "getPerfiles",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "526ca24e-024e-e48a-2f98-d520e73c5414",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "getLstEstudios",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "idCliente",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1580504909728,
+			"name": "getLstEstudios",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "58f400cb-095f-869a-c8a1-46d341e1ee79",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "registraTarifas",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "iIdCliente",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "iIdEstudio",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "dCosto1",
+					"value": "40",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "dCosto2",
+					"value": "65",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "dCosto3",
+					"value": "70",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1580532711794,
+			"name": "registraTarifas",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "5ab1b4b6-e725-b86b-7fe9-e4e531ebd1aa",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "CerrarSesion",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1580497900638,
+			"name": "CerrarSesion",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "62f5e9b8-69f6-1d8a-b39d-e71094ab3e27",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "getTarifas",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "iIdCliente",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "iIdEstudio",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1580763883835,
+			"name": "getTarifas",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "8315fd4a-7259-1698-c3dd-0d3edd0b61b8",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "registraEmpresa",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sNombreEmpresa",
+					"value": "Empresa  prueba",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sTipoFolio",
+					"value": "f",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "logotipo",
+					"value": "http://blablabla.jpg",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1581267177640,
+			"name": "registraEmpresa",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "897fbfe9-eb59-2d37-aa5b-28571274222a",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "getEmpresas",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1580504057903,
+			"name": "getEmpresas",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "948d100e-c147-bdba-1f3b-040242cdadf1",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "tst_cambaceo",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1580333386910,
+			"name": "login",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "97615bf2-0e98-34ef-9501-2ea8145efdd0",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "UpdCliente",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "iIdEmpresa",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "correoelectronico",
+					"value": "cliente2_0@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "md5pass",
+					"value": "81dc9bdb52d04dc20036dbd8313ed055",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nombres",
+					"value": "Raul Juarez",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "apellidos",
+					"value": "Ramirez Padilla",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "iIdRol",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "iIdCliente",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1581266086701,
+			"name": "UpdCliente",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "9b9a8ef3-c17c-0df4-cd29-9b5ba1a296e3",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "getEjecutivos",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1580766072650,
+			"name": "getEjecutivos",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "9cce9cda-780e-7dda-1094-67b00c49007b",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "registrocliente",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "iIdEmpresa",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "correoelectronico",
+					"value": "cliente2@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "md5pass",
+					"value": "81dc9bdb52d04dc20036dbd8313ed055",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nombres",
+					"value": "Marco Juarez",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "apellidos",
+					"value": "Ramirez P",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "idejecutivo",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "iIdRol",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1580535715106,
+			"name": "registrocliente",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "d7161a2b-5f4c-a3ad-519f-a4c117160a04",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "GetClientesbyId",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "iIdCliente",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1580764497593,
+			"name": "GetClientesbyId",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "de73202f-0430-ed63-8187-174f318fd581",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "registroempleado",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "correoelectronico",
+					"value": "empleado2@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "md5pass",
+					"value": "81dc9bdb52d04dc20036dbd8313ed055",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nombres",
+					"value": "Empleado N",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "apellidos",
+					"value": "Apellidos P",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "iIdRol",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1580536578582,
+			"name": "registroempleado",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "ecdadcac-20a7-d945-1ca5-2634aa150a2c",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/{{pathTalenti}}requestsrvrTalenti.php",
+			"folder": null,
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "sService",
+					"value": "gettest",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1580497434316,
+			"name": "GetTest",
+			"description": "",
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b",
+			"responses": []
+		},
+		{
+			"id": "fbc11f38-1f80-43a2-418e-ed195626f206",
+			"folder": null,
+			"name": "bkService.php",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "sService",
+					"value": "login",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\n  \"sService\":\"login\"\n}",
+			"descriptionFormat": "html",
+			"description": null,
+			"variables": null,
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://{{server}}/{{pathTalenti}}bkService.php",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "d11f2955-f838-a75e-2035-85e0cb5c199b"
+		}
+	]
+}

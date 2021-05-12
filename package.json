@@ -34,7 +34,7 @@
     "material": "^0.4.3",
     "ngx-gallery": "^5.10.0",
     "ngx-swiper-wrapper": "^8.0.2",
-    "nodemailer": "^6.4.2",
+    "nodemailer": "^6.4.16",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
